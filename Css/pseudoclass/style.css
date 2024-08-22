@@ -1,0 +1,66 @@
+
+article>p:first-of-type{
+    color: rgb(218, 20, 53);
+}
+
+article>p:nth-of-type(3){
+    color: blueviolet;
+}
+
+article>span:first-of-type{
+    color: blue;
+}
+article>span:last-of-type{
+    color: green;
+}
+article>span:nth-last-of-type(2){
+    color: aquamarine;
+}
+article>:nth-last-child(2){
+    color: brown;
+}
+
+
+/* :first-child
+:last-child
+:nth-child(position/even/odd)
+:nth-last-child()
+:first-of-type
+:last-of-type
+:nth-of-type()
+:nth-last-of-type(position/even/odd)
+
+:link   ----Not visited state  (sky blue)
+:active  ----Active  (red)
+:visited  ----Visited  (purple)
+:hover
+:focus */
+
+
+a:link{
+    color: red;
+}
+a:active{
+    color: purple;
+}
+a:visited{
+    color: brown;
+}
+a:hover{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline red;
+}
+input:focus{
+    border: 2px solid green;
+    outline: 2px solid blueviolet;
+    outline-offset: 2px;
+    
+}
+article:has(p){
+    color: orange;
+}

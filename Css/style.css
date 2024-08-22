@@ -1,0 +1,68 @@
+/* .div3{
+color: blue;
+} */
+/* *{
+    color: orange
+    !important;
+} */
+ /* *{
+    color: orange;
+}
+
+ #div6,.div4{
+    color: rgb(9, 73, 73);
+
+ } */
+
+
+ /* PRIORITY IN CSS */
+
+ /* universal 
+ *{
+ color:gray;} */
+
+ /* tag name
+ div{color:pink;
+ } 
+ */
+
+ /* class name
+ .mytag{color:red;
+ } */
+
+ /* id 
+ #div-1{
+ color:blue;
+ } */
+
+
+
+ /* article div{
+    color: blue;
+ }
+ article .span1{
+    color: red;
+ }
+
+ article>div{
+    color: green;
+ } */
+
+
+
+
+/* 
+ article + div{color:blue;}
+ article+div+main{
+    color: blueviolet;
+ } */
+
+
+
+
+
+ article~span ,
+ article~h4>span{
+    color: brown;
+ }
+

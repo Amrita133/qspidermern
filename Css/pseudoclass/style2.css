@@ -1,0 +1,11 @@
+p:not(#p3){
+    color: red;
+}
+
+ :is(h2,h4,h6){
+    color:blue;
+ }
+
+ :where(h1,h3,h5){
+    color: deepskyblue;
+ }
