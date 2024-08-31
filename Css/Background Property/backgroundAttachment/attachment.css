@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+
+}
+section{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment:fixed ;
+}
+.section-1{
+background-image: url('https://img.goodfon.com/wallpaper/big/2/63/2024-ford-mustang-gt-convertible-california-special-us-ford.webp');
+}
+.section-2{
+    background-image: url('https://www.cartoq.com/wp-content/uploads/2021/12/Thar-dieseltronic-featured.jpg');
+}
+.section-3{
+    background-image: url('https://medialamborghini-meride-tv.akamaized.net/meride/lamborghini/video/images/folder1/1252/vlcsnap-2023-03-17-16h18m30s840.jpg');
+}
+.section-4{
+    background-image: url('https://static.theprint.in/wp-content/uploads/2022/06/Scorpio-1024x576.jpg');
+}
+.section-5{
+    background-image: url('https://di-uploads-pod20.dealerinspire.com/sewickleybmw/uploads/2022/09/2209-BMW-iX.jpg');
+}
+.section-6{
+    background-image: url('https://cdn.motor1.com/images/mgl/40ZjRJ/s1/audi-rs6-avant-performance.jpg');
+}
+h2{
+ color: rgb(255, 255, 255,0.3);
+ }
+ .section-1>h2{
+    color: rgb(0, 0, 0,0.3);
+ }

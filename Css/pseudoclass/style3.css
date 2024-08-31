@@ -1,0 +1,45 @@
+.d1::first-letter{
+    color: red;
+    font-size: 28px;
+}
+p::first-line{
+    color: blue;
+}
+
+::selection{
+    color: rgb(29, 28, 30);
+    background-color: purple;
+}
+#div1::before{
+ content:"Jai ";
+ color:  orangered;
+}
+#div1::after{
+ content: " Ram" ;
+ color: orangered;
+}
+
+
+div[title="div2"]{
+    color: maroon;
+}
+input[type="email"]{
+    color: darkblue;
+    outline: none;
+}
+input[type="password"]{
+    color: darkblue;
+    outline: none;
+}
+button[type="submit"]{
+    background-color: blueviolet;
+    color: plum;
+    border: none;
+    padding: 5px 45px;
+}
+button[type="reset"]{
+    background-color: palevioletred;
+    color: pink;
+    border: none;
+    padding: 5px 45px;
+}
